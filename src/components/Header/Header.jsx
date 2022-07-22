@@ -14,7 +14,7 @@ const Header = () => {
         <NavBar />
         <Button
           submit={() => console.log("Submit Button")}
-          title="Connect Wallet"
+          title="CONNECT WALLET"
           className="connect_wallet"
         />
       </div>

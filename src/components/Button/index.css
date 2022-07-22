@@ -1,11 +1,11 @@
 .button {
+	font-family: "Inter";
     width: 309px;
 		height: 85px;
 		border: none;
 		border-radius: 22px;
 		font-size: 25px;
 		color: #fff;
-		text-transform: uppercase;
 		font-weight: 700;
 }
 .button:hover {
@@ -16,4 +16,7 @@
 }
 .mint {
 	background: linear-gradient(90deg, #00ECE9 0%, #00B968 100%);
+}
+.merge {
+	background: linear-gradient(90deg, #00BBC6 0%, #00B358 100%);
 }
