@@ -1,0 +1,76 @@
+.token {   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(3, 253, 246, 0.9) 0%, rgba(0, 235, 126, 0.9) 101.22%);
+    mix-blend-mode: normal;
+}
+.token_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+}
+.token_title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 30px rgba(255, 255, 255, 0.2);
+    margin-top: 0px;
+    text-transform: uppercase;
+}
+.text_group {
+    display: flex;
+    align-items: center;
+    width: 1200px;
+    justify-content: space-between;
+}
+.card_container {
+    width: 484px;
+    height: 446px;
+    background: linear-gradient(180deg, #A089F1 0%, #A250E9 48.96%, #BF3CA7 100%);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    margin-bottom: -200px;
+}
+.card_container li {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 60px;
+    color: #FFFFFF;
+    margin-left: 20px;
+}
+.token_sub_title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 80px;
+}
+.token_sub_title span {
+    font-size: 12px;
+}
+
+@media only screen and (max-width: 1024px) {
+    
+}
+
+@media only screen and (max-width: 768px) {
+   
+}
+@media only screen and (max-width: 600px) {
+    
+}
