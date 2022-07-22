@@ -1,9 +1,20 @@
-.what_is {
+.what_is {   
     display: flex;
-    width: 100%;
     align-items: center;
     justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 120px;
+    width: 100%;
     background: linear-gradient(90deg, #1E0144 0%, #1D018A 100%);
+}
+.what_is_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+}
+.text_container {
+    width: 45%;
 }
 .sub_title {
     font-family: "Inter";
@@ -20,137 +31,12 @@
     color: #FFFFFF;
 }
 @media only screen and (max-width: 1024px) {
-    .winabean {
-        margin-left: -30px;
-    }
-    .winabean > img {
-        margin-top: 120px;
-        margin-left: -50px;
-        width: 400px;
-    }
-    .watchtitle {
-        margin-right: 20px;
-    }
-    .firsttitle {
-        font-size: 35px;
-    }
-    .secondtitle {
-        font-size: 40px;
-    }
-    .watchscreen {
-        margin-right: -60px;
-    }
-    .watchscreen > img {
-        width: 450px;
-        height: 300px;
-        margin-top: -80px;
-    }
-    .titlescreen {
-        margin-left: 50px;
-        margin-top: -50px;
-    }
-
-    .watchtitle > img {
-        width: 200px;
-    }
-    .videodiv {
-        top: -47px;
-        left: 37px;
-        width: 374px;
-        height: 235px;
-    }
+    
 }
 
 @media only screen and (max-width: 768px) {
-    .winabean > img {
-        margin-left: -100px;
-        margin-top: 80px;
-        width: 350px;
-    }
-    .titlescreen {
-        margin-left: -20px;
-    }
-    .watchman > img {
-        width: 200px;
-    }
-    .watchtitle img {
-        width: 200px;
-        margin-left: -20px;
-    }
-    .watchscreen {
-        margin-right: 0px;
-    }
-    .watchscreen img {
-        width: 400px;
-        height: 300px;
-    }
-    .videodiv {
-        top: -48px;
-        left: 32px;
-        width: 332px;
-        height: 236px;
-    }
-    .react-player video {
-        position: relative;
-        left: 0;
-        top: 0;
-        transform: none;
-    }
-    .active {
-        height: 200px;
-    }
+   
 }
 @media only screen and (max-width: 600px) {
-    .firsttitle {
-        font-size: 25px;
-    }
-    .secondtitle {
-        font-size: 30px;
-    }
-    .watchtitle > img {
-        display: none;
-    }
-    .titlescreen {
-        margin-left: 0px;
-    }
-    .watchscreen {
-        position: absolute;
-        bottom: 100px;
-    }
-    .watchscreen img {
-        width: 400px;
-        height: 250px;
-    }
-    .winabean {
-        margin-left: 0px;
-    }
-    .winabean > img {
-        width: 200px;
-        margin-left: 20px;
-    }
-    .watchman img {
-        width: 100px;
-    }
-    .enternow img {
-        width: 150px;
-    }
-    .titlescreen {
-        display: flex;
-        justify-content: space-between;
-        height: 500px;
-        flex-direction: column;
-        align-items: center;
-    }
-    .diagram {
-        height: 450px;
-    }
-    .videodiv {
-        top: -53px;
-        left: 33px;
-        width: 333px;
-        height: 197px;
-    }
-    .active {
-        height: 180px;
-    }
+    
 }

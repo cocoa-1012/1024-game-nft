@@ -8,7 +8,7 @@ import "./index.css";
 const Play = () => {
   return (
     <div className="play" id="howtobuy">
-      <div>
+      <div className="play_detail_container">
         <p className="play_detail">
           Fusionnez les chiffres jusqu’à obtenir le NFT 1024 et remportez le
           Jackpot

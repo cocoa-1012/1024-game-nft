@@ -38,6 +38,11 @@
     text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.1);
     margin: 0;
 }
+.play_detail_container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
 .play_detail {
     width: 335px;
     font-family: 'Inter';
