@@ -1,0 +1,12 @@
+.play {
+    display: flex;
+}
+.play_detail {
+    width: 335px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    text-align: center;
+    color: #FFFFFF;
+}

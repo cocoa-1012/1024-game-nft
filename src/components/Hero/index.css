@@ -1,0 +1,113 @@
+.hero_container {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;    
+    background-color: #1E0144;
+/* background-image: url('images/checked.png'); */
+    /* background-color: linear-gradient(90deg, #1E0144 0%, #1D018A 100%); */
+    /* background-color: linear-gradient(90deg, #1E0144 0%, #1D018A 100%); */
+    background-image: url('../../assets//img/hero-background.png');
+    background-position: center;
+/*     
+    mix-blend-mode: soft-light; */
+    width: 100%;
+    height: max-content;
+    overflow: hidden;
+}
+.hero_main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 100;
+}
+.hero_main_back {
+    position: absolute;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: max-content;
+    z-index: 0;
+    overflow: hidden;
+}
+.p-1 {
+    font-family: 'Sui Generis';
+    font-style: normal;
+    text-align: center;
+    background: linear-gradient(90deg, #145FDB 0%, #19E1C1 100%);
+    font-size: 70px;
+    font-weight: 400;
+    text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.32);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 0px;
+}
+.p-2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 50px;
+    width: 70%;
+    text-align: center;
+    color: #FFFFFF;
+}
+.button_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.amount_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 20px;
+    background: rgba(1, 209, 163, 0.6);
+    width: 200px;
+    height: 85px;
+    border-radius: 11px;
+}
+.amount_container img {
+    width: 24px;
+    height: 24px;
+}
+.amount_container img:hover {
+   cursor: pointer !important;
+}
+.amount_number {
+   font-size: 25px;
+   font-weight: 700;
+   color: #fff;
+}
+.jackpot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.eth_value {
+    font-family: "Inter";
+    position: absolute;
+    margin-top: 280px;
+    font-size: 50px;
+    color: #fff;
+    font-weight: 800;
+    text-shadow:  0px 0px 7px rgba(255, 255, 255, 0.6);
+}
+.eth_value span {
+    font-size: 25px;
+}
+
+@media only screen and (max-width: 1024px) {
+   
+}
+@media only screen and (max-width: 768px) {
+  
+}
+@media only screen and (max-width: 600px) {
+   
+}

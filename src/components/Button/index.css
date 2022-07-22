@@ -1,0 +1,19 @@
+.button {
+    width: 309px;
+		height: 85px;
+		border: none;
+		border-radius: 22px;
+		font-size: 25px;
+		color: #fff;
+		text-transform: uppercase;
+		font-weight: 700;
+}
+.button:hover {
+	cursor: pointer;
+}
+.connect_wallet {
+  background: linear-gradient(90deg, #480472 0%, #8B18D2 100%);
+}
+.mint {
+	background: linear-gradient(90deg, #00ECE9 0%, #00B968 100%);
+}

@@ -1,0 +1,11 @@
+.App {
+  text-align: center;
+}
+
+.page-container {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(165.75deg, #1C0146 0%, #020183 100%);
+}
