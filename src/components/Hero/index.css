@@ -4,6 +4,7 @@
     justify-content: center;
     align-items: center;
     padding-top: 150px;    
+    margin-top: -150px;
     background-color: #1E0144;
 /* background-image: url('images/checked.png'); */
     /* background-color: linear-gradient(90deg, #1E0144 0%, #1D018A 100%); */

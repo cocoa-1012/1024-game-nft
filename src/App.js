@@ -1,4 +1,5 @@
 import "./App.css";
+import Faq from "./components/Faq/Faq";
 import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
 import Play from "./components/Play/Play";
@@ -13,6 +14,7 @@ function App() {
       <WhatIs />
       <Play />
       <Token />
+      <Faq />
     </div>
   );
 }
